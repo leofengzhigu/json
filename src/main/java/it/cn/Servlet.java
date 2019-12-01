@@ -19,6 +19,7 @@ public class Servlet extends HttpServlet {
         System.out.println("jin lai");
         Map<String,Object> map = new HashMap<String,Object>();
         map.put("u",request.getParameter("username"));
+        System.out.println("git");
 
         ObjectMapper mapper = new ObjectMapper();
         mapper.writeValue(response.getWriter(),map);
