@@ -20,6 +20,7 @@ public class Servlet extends HttpServlet {
         Map<String,Object> map = new HashMap<String,Object>();
         map.put("u",request.getParameter("username"));
         System.out.println("git");
+        System.out.println("git2");
 
         ObjectMapper mapper = new ObjectMapper();
         mapper.writeValue(response.getWriter(),map);
