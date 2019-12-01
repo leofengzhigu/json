@@ -21,6 +21,7 @@ public class Servlet extends HttpServlet {
         map.put("u",request.getParameter("username"));
         System.out.println("git");
         System.out.println("git2");
+        System.out.println("git3");
 
         ObjectMapper mapper = new ObjectMapper();
         mapper.writeValue(response.getWriter(),map);
