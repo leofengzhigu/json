@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://wee.asda/x/xml l.xsd"
+            xmlns="http://wee.asda/x/xml">
+
+    <student number="heima_1235">
+        <name>a</name>
+        <age>1</age>
+        <sex>female</sex>
+    </student>
+
+</students>

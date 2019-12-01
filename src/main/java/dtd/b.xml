@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE students SYSTEM
+        "C:\Users\Administrator\IdeaProjects\untitled\src\main\java\a.dtd">
+<students>
+    <student number="ser">
+        <name>456</name>
+        <age>456</age>
+        <sex>456</sex>
+    </student>
+
+</students>
